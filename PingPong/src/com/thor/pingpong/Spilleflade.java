@@ -1,14 +1,17 @@
 package com.thor.pingpong;
 
+import java.awt.Dimension;
+
 import javax.swing.*;
 
 public class Spilleflade extends JPanel {
 	
-	JFrame vindue = new Jframe("Ping Pong");
 
-	public void tegn(Graphics g)
+	public void paintComponent(Graphics g)
 	{
-	 
+	  
+		super.repaint();
 	}
+	public Dimension getPrefferedSize()
 
 }

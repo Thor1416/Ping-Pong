@@ -30,17 +30,8 @@ public class Bold {
 		bhastighed=(int) (bvinkel - 180);
 		
 	}
-	public void paintComponent(Graphics g){
-		
-		int spillefladeHeight;
-		int spillefadeWidth;
-		
-		posX2=(int) (posX+bhastighed*Math.sin(bflyveretning));
-		posY2=(int) (posY+bhastighed*Math.sin(bflyveretning));
-		
-		if(posX2)
-		
-		g.drawOval(posX,posY,bstørrelse,bstørrelse);
+	
+	
 	}
 	public void skiftRetning(){
 		bhastighed = bhastighed-1;
